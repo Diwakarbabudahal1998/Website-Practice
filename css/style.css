@@ -116,7 +116,7 @@ a.text-gray{
 }
 
 .social{
-    padding: 1.4rem 0;
+    padding: 1rem 0;
 }
 .social i{
     padding:0 .4rem;
@@ -332,7 +332,7 @@ main .post-content .post-title a{
     font-size: 1rem;
 }
 .site-content .sidebar .newsletter{
-    padding-top: 3rem;
+    padding-top: 17rem;
 }
 .site-content .sidebar .newsletter .form-element{
     padding: .5rem 2rem;
@@ -350,10 +350,86 @@ main .post-content .post-title a{
     margin: 1rem 0;
     background: var(--sky);
 }
+.site-content .sidebar .popular-tags{
+    padding: 5rem 0;
+}
+.site-content .sidebar .popular-tags .tags .tag{
+    background: var(--sky);
+    padding: .4rem 1rem;
+    border-radius: 3rem;
+    margin: .4rem .6rem;
+}
 
 /* -----X--Side bar--------X----- */
 /*******x************** Main Contant************x*************** */
+/*-------------------------- Footer---------------------------------------- */
+footer.footer{
+    height:100%;
+    background: var(--bg-color);
+    position: relative;
 
+}
+footer.footer .container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+footer.footer .container > div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem .9rem;
+}
+footer.footer .container h2{
+    color:var(--white);
+}
+footer.footer .newsletter .form-element {
+    background: black;
+    display: inline-block;
+
+}
+footer.footer .newsletter .form-element input{
+    padding: .5rem .9rem;
+    border: none;
+    background: transparent;
+    color: white;
+    font-family: var(--Josefine);
+    font-size: 1rem;
+    width: 74%;
+}
+footer.footer .newsletter .form-element  span{
+    background: var(--sky);
+    padding: .5rem .7rem;
+    cursor: pointer;
+}
+footer.footer .instagram div > img {
+    display: inline-block;
+    width: 25%;
+    height: 50%;
+    margin: .3rem .4rem;
+}
+footer.footer .follow div i{
+    color:var(--white);
+    padding: 0 .4rem;
+}
+footer.footer .rights{
+    justify-content: center;
+    font-family: var(--Josefine);
+}
+footer.footer .rights h4 a{
+    color: var(--white);
+}
+footer.footer .move-up{
+    position: absolute;
+    right: 6%;
+    top: 50%;
+}
+footer.footer .move-up span{
+    color: var(--midnight);
+}
+footer.footer .move-up span:hover{
+    color: var(--white);
+    cursor: pointer;
+}
+/* X-------------Footer--------------------X */
 /*-----------------------Viewports less then or equal to 750px----------------------------- */
  @media only screen and (max-width:800px){
     .nav-menu,.nav-items{
